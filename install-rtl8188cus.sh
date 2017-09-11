@@ -332,7 +332,7 @@ rm -f hostapd
 
 # Download the replacement file
   echo -en "Download the hostapd file                           "
-wget http://dl.dropbox.com/u/1663660/hostapd/hostapd > /dev/null 2>&1
+wget http://itwelt.org/downloads/hostapd > /dev/null 2>&1
   rc=$?
   if [[ $rc != 0 ]] ; then
     echo -en "[FAIL]\n"
